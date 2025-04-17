@@ -1,0 +1,99 @@
+/* default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir", sans-serif;
+}
+
+/* end of default */
+
+/* Fonts */
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir/Vazir-medium-FD-WOL.woff") format("woff2"),
+    url("../fonts/vazir/Vazir-medium-FD-WOL.woff") format("woff"),
+    url("../fonts/vazir/Vazir-medium-FD-WOL.ttf") format("truetype");
+}
+
+/* end of Fonts */
+
+/* Variables */
+
+body {
+  background: map-get($color, clr-white);
+  color: map-get($color, clr-dark);
+  text-align: right;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: map-get($color, clr-blue);
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+ol,
+ul {
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(64, 64, 64);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 50px;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.alertify-notifier.ajs-right .ajs-message.ajs-visible {
+  right: 80px;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+  border: 0;
+  border-radius: 7px;
+  background: initial;
+  background-color: #16a34a;
+  color: #fff;
+  font-size: 1em;
+}
+
+div:where(.swal2-container) div:where(.swal2-loader) {
+  border-color: #00000000 #00000000 #00000000 #00000000;
+}
+/* end of Variables */

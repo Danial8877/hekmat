@@ -1,0 +1,38 @@
+{
+  "devDependencies": {
+    "sass": "^1.84.0"
+  },
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "alertifyjs": "^1.14.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "fill-range": "^7.1.1",
+    "immutable": "^5.0.3",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "jquery": "^3.7.1",
+    "micromatch": "^4.0.8",
+    "node-addon-api": "^7.1.1",
+    "picomatch": "^2.3.1",
+    "readdirp": "^4.0.2",
+    "source-map-js": "^1.2.1",
+    "sweetalert2": "^11.16.0",
+    "swiper": "^11.2.2",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "sass": "sass -w scss/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

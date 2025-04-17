@@ -1,0 +1,49 @@
+// Default
+
+@import "config/colors";
+@import "config/radius";
+@import "config/transition";
+@import "base/base";
+
+// Component
+
+@import "component/navbar";
+@import "component/footer";
+@import "component/navigation";
+@import "component/menu";
+@import "component/preloader";
+@import "component/alertfy_connection";
+
+// Index
+
+@import "layout/index/carousel_image";
+@import "layout/index/carousel_bestsellers";
+@import "layout/index/options";
+@import "layout/index/news";
+
+// Login
+
+@import "layout/login/icon-form";
+@import "layout/login/login-form";
+
+// Search
+
+@import "layout/search/search";
+
+// Product
+
+@import "layout/product/navbar";
+@import "layout/product/about";
+@import "layout/product/comments";
+@import "layout/product/describe";
+
+// Products
+
+@import "layout/products/list";
+@import "layout/products/products.scss";
+
+// User
+
+@import "layout/user/favorites";
+@import "layout/user/orders";
+@import "layout/user/debts";

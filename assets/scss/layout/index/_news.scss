@@ -1,0 +1,127 @@
+.news-text {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85%;
+  margin-bottom: 10px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 138, 0), rgb(229, 46, 113));
+  padding: 30px;
+  margin: 100px 60px 100px 60px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 138, 0), rgb(229, 46, 113));
+    padding: 30px;
+    margin: 100px 20px 100px 20px;
+    border-radius: 30px;
+  }
+}
+
+.news p {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.mySwiper {
+  max-width: 90%;
+  width: 100%;
+  height: 50%;
+}
+
+.art-news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.swiper-slide-news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.news-img {
+  width: 100%;
+  height: 10rem;
+  border-radius: 10px;
+}
+.news-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  margin: 0px 10px 2px 0px;
+  color: map-get($color, clr-dark);
+}
+.news-description {
+  font-size: 13px;
+  font-weight: lighter;
+  color: map-get($color, clr-gray);
+  text-align: right;
+  margin: 0px 10px 2px 0px;
+}
+.news-price {
+  font-size: 13px;
+  font-weight: lighter;
+  color: map-get($color, clr-gray);
+  text-align: right;
+  margin: 0px 10px 2px 0px;
+}
+.news-price strong {
+  font-size: 15px;
+  color: #848383;
+}
+.news-options {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #989898;
+  text-align: right;
+  margin: 5px 10px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-options a {
+  text-align: text;
+  background: #c5c5c5;
+  color: map-get($color, clr-dark);
+  border-radius: 50px;
+  font-weight: 100;
+  font-size: 12px;
+  padding: 0.1px 10px 0.1px 10px;
+}

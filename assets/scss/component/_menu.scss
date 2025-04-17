@@ -1,0 +1,94 @@
+.offcanvas.show,
+.offcanvas.showing {
+  width: 45vh;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .offcanvas.show,
+  .offcanvas.showing {
+    width: 35vh;
+  }
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.offcanvas.offcanvas-end {
+  transition: 0.2s ease-in-out;
+}
+
+.cat {
+  width: 100%;
+  padding: 5px 25px 5px 25px;
+  color: #000000;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px #e6e6e6;
+  font-weight: lighter;
+}
+
+.sub li a {
+  width: 100%;
+  padding: 5px 40px 5px 40px;
+  color: #252525;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 900;
+}
+
+.cat i {
+  font-size: 25px;
+  color: #3a3a3a;
+  transition: 0.5s ease-in-out;
+}
+
+.sub li a i {
+  font-size: 25px;
+  color: #343434;
+}
+
+.list_items:hover a i {
+  transform: rotate(180deg);
+}
+
+.sub {
+  display: none;
+}
+
+.list_items:hover ul {
+  display: block;
+  animation: down 0.5s linear;
+}
+
+.list_items:hover a {
+  border-bottom: solid 0px #b7b7b700;
+}
+
+.list_items:hover ul li a {
+  border-bottom: solid 0px #b7b7b700;
+}
+
+.sub-sub li a {
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.offcanvas-header {
+  padding: 13px;
+}
+
+.offcanvas-header p {
+  font-size: 13px;
+}
